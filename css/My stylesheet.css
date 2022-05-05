@@ -1,0 +1,143 @@
+@media screen and (max-width:523px) {
+    #parent {
+        display: block !important;
+    }
+    #footer {
+        padding: 0 !important;
+    }
+    .ml-auto,
+    .mx-auto {
+        margin-left: 0 !important;
+    }
+    .sidebar {
+        width: 100% !important;
+    }
+    .sidebar li:last-child {
+        padding-bottom: 10px !important;
+    }
+    .table-responsive {
+        margin: 0 10px 0 10px !important;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #d9d9d9;
+}
+
+.rounded-circle {
+    border-radius: 50%
+}
+
+.smalltext>a:nth-of-type(2) {
+    position: relative
+}
+
+.smalltext {
+    font-size: 13px
+}
+
+#parent {
+    display: flex;
+}
+
+#footer {
+    background-color: #efefef;
+    flex: 0 0 50px;
+    margin-top: auto;
+}
+
+.bg-purple {
+    background-color: #5f005b !important;
+}
+
+h2 {
+    font-family: Lobster;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+.Header {
+    text-align: center;
+    font-family: Lobster;
+    font-size: 30px;
+}
+
+.Semester-1-box {
+    background-color: purple;
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    height: auto;
+    font-family: Lobster;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+.Semester-2-box {
+    background-color: purple;
+    width: 50%;
+    float: right;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    height: auto;
+    font-family: Lobster;
+    font-size: 30px;
+    text-decoration-line: underline;
+    float: right;
+}
+
+.The-box {
+    background-color: silver;
+    max-width: 100%;
+    height: auto;
+    border: 15px solid purple;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 2.5%;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.UOM {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.disclaimer {
+    display: #5f005b;
+}

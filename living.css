@@ -1,0 +1,25 @@
+/* Showcase */
+
+#showcase {
+    object-fit: cover;
+    min-height: 800px;
+    background: url("../img/joseph.jpg.jpg") no-repeat 0 -200px;
+    text-align: center;
+    color: #ffffff;
+    object-fit: fill;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-align: center;
+}
