@@ -179,23 +179,6 @@ p {
     background-color: #f1f1f1;
 }
 
-ul {
-    list-style: none;
-}
-
-ul li::before {
-    content: "\2022";
-    color: purple;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-li {
-    color: purple;
-}
-
 .button {
     display: inline-block;
     padding: 15px 25px;
